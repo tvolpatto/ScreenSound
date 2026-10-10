@@ -1,0 +1,15 @@
+C:\Projects\ScreenSound\bin\Debug\net6.0\ScreenSound.exe
+C:\Projects\ScreenSound\bin\Debug\net6.0\ScreenSound.deps.json
+C:\Projects\ScreenSound\bin\Debug\net6.0\ScreenSound.runtimeconfig.json
+C:\Projects\ScreenSound\bin\Debug\net6.0\ScreenSound.dll
+C:\Projects\ScreenSound\bin\Debug\net6.0\ScreenSound.pdb
+C:\Projects\ScreenSound\obj\Debug\net6.0\ScreenSound.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ScreenSound\obj\Debug\net6.0\ScreenSound.AssemblyInfoInputs.cache
+C:\Projects\ScreenSound\obj\Debug\net6.0\ScreenSound.AssemblyInfo.cs
+C:\Projects\ScreenSound\obj\Debug\net6.0\ScreenSound.csproj.CoreCompileInputs.cache
+C:\Projects\ScreenSound\obj\Debug\net6.0\ScreenSound.sourcelink.json
+C:\Projects\ScreenSound\obj\Debug\net6.0\ScreenSound.dll
+C:\Projects\ScreenSound\obj\Debug\net6.0\refint\ScreenSound.dll
+C:\Projects\ScreenSound\obj\Debug\net6.0\ScreenSound.pdb
+C:\Projects\ScreenSound\obj\Debug\net6.0\ScreenSound.genruntimeconfig.cache
+C:\Projects\ScreenSound\obj\Debug\net6.0\ref\ScreenSound.dll
