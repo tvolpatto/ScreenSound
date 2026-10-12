@@ -1,8 +1,9 @@
 ﻿namespace ScreenSound.Model;
 
-internal class Album
+internal class Album: IAvaliavel
 {
     private List<Musica> musicas = new List<Musica>();
+    private List<Avaliacao> notas = new List<Avaliacao>();
 
     public Album(string nome)
     {
@@ -13,10 +14,18 @@ internal class Album
     public int DuracaoTotal => musicas.Sum(m => m.Duracao);
     public List<Musica> Musicas => musicas;
 
+    public double Media => notas.Count == 0 ? 0 : notas.Average(n => n.Nota);
+
     public void AdicionarMusica(Musica musica)
     {
         musicas.Add(musica);
     }
+
+    public void AdicionarNota(Avaliacao nota)
+    {
+        notas.Add(nota);
+    }
+
 
     public void ExibirMusicasDoAlbum()
     {
