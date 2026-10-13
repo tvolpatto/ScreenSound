@@ -21,6 +21,11 @@ internal class MenuExibirDetalhes : Menu
         foreach (Album album in banda.Albuns)
         {
             Console.WriteLine($"- {album.Nome} - média: ({album.Media})");
+            Console.WriteLine("Músicas:");
+            foreach (Musica musica in album.Musicas)
+            {
+                Console.WriteLine($"- {musica.Nome} - média: ({musica.Media})");
+            }
         }
         Console.ReadKey();
         Console.Clear();

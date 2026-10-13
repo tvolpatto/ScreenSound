@@ -12,7 +12,7 @@ internal class Banda : IAvaliavel
 
     public string Nome { get; }
     public double Media => notas.Count > 0 ? notas.Average(n => n.Nota) : 0;
-    public List<Album> Albuns => albuns;
+    public IEnumerable<Album> Albuns => albuns;
 
     public void AdicionarAlbum(Album album) 
     { 

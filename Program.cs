@@ -18,10 +18,11 @@ bandasRegistradas.Add(linkinPark.Nome, linkinPark);
 Dictionary<int, Menu> menus = new Dictionary<int, Menu>();
 menus.Add(1, new MenuRegistrarBanda());
 menus.Add(2, new MenuRegistrarAlbum());
-menus.Add(3, new MenuMostrarBandas());
-menus.Add(4, new MenuAvaliarBanda());
-menus.Add(5, new MenuAvaliarAlbum());
-menus.Add(6, new MenuExibirDetalhes());
+menus.Add(3, new MenuRegistrarMusica());
+menus.Add(4, new MenuMostrarBandas());
+menus.Add(5, new MenuAvaliarBanda());
+menus.Add(6, new MenuAvaliarAlbum());
+menus.Add(7, new MenuExibirDetalhes());
 menus.Add(-1, new MenuSair());
 
 void ExibirLogo()
@@ -43,10 +44,11 @@ void ExibirOpcoesDoMenu()
     ExibirLogo();
     Console.WriteLine("\nDigite 1 para registrar uma banda");
     Console.WriteLine("Digite 2 para registrar o álbum de uma banda");
-    Console.WriteLine("Digite 3 para mostrar todas as bandas");
-    Console.WriteLine("Digite 4 para avaliar uma banda");
-    Console.WriteLine("Digite 5 para avaliar um álbum");
-    Console.WriteLine("Digite 6 para exibir os detalhes de uma banda");
+    Console.WriteLine("Digite 3 para registrar uma música");
+    Console.WriteLine("Digite 4 para mostrar todas as bandas");
+    Console.WriteLine("Digite 5 para avaliar uma banda");
+    Console.WriteLine("Digite 6 para avaliar um álbum");
+    Console.WriteLine("Digite 7 para exibir os detalhes de uma banda");
     Console.WriteLine("Digite -1 para sair");
 
     Console.Write("\nDigite a sua opção: ");
