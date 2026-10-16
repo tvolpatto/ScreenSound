@@ -14,6 +14,8 @@ internal class Banda : IAvaliavel
     public double Media => notas.Count > 0 ? notas.Average(n => n.Nota) : 0;
     public IEnumerable<Album> Albuns => albuns;
 
+    public string? Resumo { get; set; }
+
     public void AdicionarAlbum(Album album) 
     { 
         albuns.Add(album);
